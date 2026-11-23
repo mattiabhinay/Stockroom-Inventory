@@ -1,0 +1,8 @@
+[project]
+name = "stockroom"
+version = "0.3.1"
+description = "A small inventory tracker for a single shop"
+requires-python = ">=3.10"
+
+[project.scripts]
+stockroom = "stockroom.cli:main"
